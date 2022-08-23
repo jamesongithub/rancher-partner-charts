@@ -1,0 +1,4 @@
+url: https://github.com/microsoft/mssql-docker.git
+packageVersion: 01
+commit: master
+subdirectory: linux/rancher

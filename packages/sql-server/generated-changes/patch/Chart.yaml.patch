@@ -1,0 +1,13 @@
+--- charts-original/Chart.yaml
++++ charts/Chart.yaml
+@@ -23,3 +23,10 @@
+ appVersion: 2019.cu15
+ 
+ icon: https://docs.microsoft.com/vi-vn/troubleshoot/media/hub-landing/sql-database-blue.svg
++
++kubeVersion: ">= 1.21"
++
++annotations:
++  catalog.cattle.io/certified: partner
++  catalog.cattle.io/release-name: sql-server-dh2i-ag
++  catalog.cattle.io/display-name: SQL Server DH2i Enterprise
