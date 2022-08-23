@@ -5230,6 +5230,23 @@ entries:
     urls:
     - assets/speedscale-operator/speedscale-operator-0.9.12600.tgz
     version: 0.9.12600
+  sql-server-rancher:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: SQL Server DH2i Enterprise
+      catalog.cattle.io/release-name: sql-server-dh2i-ag
+    apiVersion: v2
+    appVersion: 2019.cu15
+    created: "2022-08-23T14:14:11.247053-07:00"
+    description: A Helm chart for SQL Server on Rancher
+    digest: 2cce7481982a7842aa7d404f7c0c94495e996d3100edffdd8e4be324699c845f
+    icon: https://docs.microsoft.com/vi-vn/troubleshoot/media/hub-landing/sql-database-blue.svg
+    kubeVersion: '>= 1.21'
+    name: sql-server-rancher
+    type: application
+    urls:
+    - assets/sql-server/sql-server-rancher-0.0.201.tgz
+    version: 0.0.201
   sysdig:
   - annotations:
       catalog.cattle.io/certified: partner

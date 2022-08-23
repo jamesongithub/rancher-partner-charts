@@ -1,0 +1,12 @@
+annotations:
+  catalog.cattle.io/certified: partner
+  catalog.cattle.io/display-name: SQL Server DH2i Enterprise
+  catalog.cattle.io/release-name: sql-server-dh2i-ag
+apiVersion: v2
+appVersion: 2019.cu15
+description: A Helm chart for SQL Server on Rancher
+icon: https://docs.microsoft.com/vi-vn/troubleshoot/media/hub-landing/sql-database-blue.svg
+kubeVersion: '>= 1.21'
+name: sql-server-rancher
+type: application
+version: 0.0.201
